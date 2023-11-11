@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Noto+Serif:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Serif", serif;
+  /* font-family: 'Montserrat', sans-serif; */
+}
+
+.check {
+  border: 2px solid red;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.navbar {
+  padding: 2rem 1.5rem;
+  background-color: #ffd600;
+
+  position: sticky;
+  top: 0;
+
+  height: 100vh;
+  width: 3.2rem;
+}
+
+.content {
+  width: calc(100% - 3rem);
+  /* background-color: aqua; */
+}
+
+.nav-container {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-container .upper-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-container .upper-nav .logo-img {
+  height: 1.5rem;
+  width: 1.5rem;
+  object-fit: contain !important;
+
+  margin-bottom: 3rem;
+}
+
+.nav-container .upper-nav .hamburger-section {
+  margin-bottom: 0.2rem;
+  width: 100%;
+}
+
+.cross1 {
+  border: 1.6px solid black;
+  width: 1.7rem;
+  transform: rotate(45deg);
+
+  display: none;
+}
+
+.cross2 {
+  border: 1.6px solid black;
+  width: 1.8rem;
+  transform: rotate(135deg);
+
+  margin-bottom: 1rem;
+
+  display: none;
+}
+
+.hamburger1 {
+  border: 1.6px solid black;
+  margin-bottom: 0.5rem;
+}
+
+.hamburger2 {
+  border: 1.6px solid black;
+  width: 50%;
+  margin-bottom: 0.5rem;
+}
+
+.nav-container .lower-nav .icon {
+  height: 1.2rem;
+  width: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.nav-container .lower-nav .icon-3 {
+  height: 1.2rem;
+  width: 1.2rem;
+}
+
+.nav-container .lower-nav .icon img {
+  object-fit: contain !important;
+}
+
+.content {
+  position: relative;
+}
+
+/* layering */
+.content-layering {
+  position: fixed;
+  top: 0;
+  display: none;
+  height: 100vh;
+}
+
+/* content container */
+.first-content {
+  height: 87vh;
+  object-fit: cover;
+}
+
+.layer1-content {
+  background-color: #141414;
+  color: white;
+  padding: 5rem 3rem;
+}
+
+.layer1-content .list {
+  margin-bottom: 1.5rem;
+  font-size: 0.8rem;
+}
+
+.layer2-content {
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0.75);
+}

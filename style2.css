@@ -1,0 +1,78 @@
+.second-content {
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.second-content :nth-child(n) {
+  margin-bottom: 2rem;
+}
+
+.tab-button{
+    cursor: pointer;
+
+    border: 2px solid #ffd600;
+    padding: .5rem .5rem;
+    font-size: .8rem;
+    background: none;
+    font-weight: 600;
+
+    border-radius: 1rem 0 1rem 0;
+}
+
+.project-tabs :nth-child(n){
+    margin-right: 1rem;
+}
+
+.tab-button:hover{
+
+    transition: .7s ease-out;
+    background-color: #ffd600;
+}
+
+.project-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-carousel{
+  padding: 0 4rem;
+  text-align: justify;
+}
+
+.project-image {
+    margin-right: 2rem;
+}
+
+.project-image img{
+    border-radius: 0.5rem 2rem 0.5rem 2rem;
+
+    width: 100%;
+}
+
+.project-visit{
+    cursor: pointer;
+
+
+    border: 2px solid #ffd600;
+    padding: .8rem 1rem;
+    font-size: .8rem;
+    background: #ffd600;
+    font-weight: 500;
+
+    border-radius: 0.5rem 1rem 1.5rem 2rem;
+}
+
+.project-visit:hover {
+    transition: .5s ease-in-out;
+    border: 2px solid #ffd600;
+    background: none;
+}
